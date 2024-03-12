@@ -1,0 +1,104 @@
+gcc -lm cholX.c
+./a 4000
+
+chol1.c 4000
+Time: 9.810100e+001
+
+chol2.c
+Time: 7.097991e+001
+
+chol3.c
+Time: 4.865048e+001 
+
+chol4.c
+Time: 5.185169e+001
+
+chol5.c
+Time: 8.003440e+001 
+
+chol6.c
+Time: 5.542158e+001
+
+gcc -lm -mavx -O2 cholX.c
+./a 4000
+
+chol1.c 4000
+Time: 2.427270e+001 
+
+chol2.c
+Time: 1.006750e-001 
+
+chol3.c
+Time: 1.125672e+001 
+
+chol4.c
+Time: 1.075141e+001 
+
+chol5.c
+Time: 5.860891e+000 
+
+chol6.c
+Time: 1.103617e+001
+
+gcc −lm −mavx −O2 −march=native cholX.c
+./a 4000
+
+chol1.c 4000
+Time: 3.593142e+001
+
+chol2.c
+Time: 1.093630e-001
+
+chol3.c
+Time: 2.231646e+000  
+
+chol4.c
+Time: 2.717834e+000
+
+chol5.c
+Time: 1.464076e+000 
+
+chol6.c
+Time: 2.629127e+000 
+
+gcc −lm −mavx −O2 −mfma cholX.c
+./a 4000
+
+chol1.c 4000
+Time: 3.607901e+001
+
+chol2.c
+Time: 1.161870e-001 
+
+chol3.c
+Time: 1.135588e+001
+
+chol4.c
+Time: 1.101277e+001 
+
+chol5.c
+Time: 6.252618e+000 
+
+chol6.c
+Time: 1.102902e+001
+
+gcc −lm −mavx −O2 −march=native −mfma cholX.c
+./a 4000
+
+chol1.c 
+Time: 3.423645e+001 
+
+chol2.c
+Time: 1.360640e-001 
+
+chol3.c
+Time: 2.402309e+000
+
+chol4.c
+Time: 3.033741e+000
+
+chol5.c
+Time: 1.795048e+000
+
+chol6.c
+Time: 2.976962e+000 
