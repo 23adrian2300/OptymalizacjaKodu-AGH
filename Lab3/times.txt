@@ -1,0 +1,41 @@
+g++ str2.cpp
+Time: 6.34374
+
+g++ str2.cpp -O2
+Time: 1.35203 -O2
+
+g++ str3.cpp
+Time: 6.40944
+
+g++ str4.cpp
+Time: 6.38751
+
+g++ str4.cpp -O2
+Time: 1.2903
+
+g++ str5.cpp
+Time: 9.712
+
+g++ str5.cpp -O2
+Time: 1.11611
+
+g++ str6.cpp
+Time: 9.65004
+
+g++ str6.cpp -O2
+Time: 1.25629
+
+g++ str7.cpp 
+Time: 0.959143
+
+g++ str8.cpp
+Time: 20.0072
+
+g++ str8.cpp -O2
+Time: 18.2688
+
+g++ str9.cpp
+Time: 1.23675
+
+g++ str10.cpp
+Time: 1.14479
