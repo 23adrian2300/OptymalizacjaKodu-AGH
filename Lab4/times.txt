@@ -1,0 +1,139 @@
+gcc ge1.c
+call GETime: 1.001819e+001 
+Check: -2.852532e+010 
+
+gcc ge2.c
+call GETime: 7.523539e+000 
+Check: -2.852532e+010 
+
+gcc ge3.c
+call GETime: 3.939585e+000 
+Check: -2.852532e+010 
+
+gcc ge4.c
+call GETime: 4.480221e+000 
+Check: -2.852532e+010 
+
+gcc ge5.c
+call GETime: 7.053653e+000 
+Check: -2.852532e+010 
+
+gcc ge6.c
+call GETime: 1.711800e-002 
+Check: -1.486659e+013 
+
+gcc -mavx ge7.c
+call GETime: 1.036500e-002 
+Check: -1.486659e+013 
+
+gcc -O2 ge1.c
+call GETime: 2.791916e+000 
+Check: -2.852532e+010 
+
+gcc -O2 ge2.c
+call GETime: 2.838521e+000
+Check: -2.852532e+010
+
+gcc -O2 ge3.c
+call GETime: 2.078529e+000 
+Check: -2.852532e+010 
+
+gcc -O2 ge4.c
+call GETime: 2.133158e+000 
+Check: -2.852532e+010 
+
+gcc -O2 ge5.c
+call GETime: 2.175380e+000 
+Check: -2.852532e+010 
+
+gcc -O2 ge6.c
+call GETime: 0.000000e+000 
+Check: -1.486659e+013
+
+gcc -O2 -mavx ge7.c
+call GETime: 0.000000e+000 
+Check: -1.486659e+013
+
+gcc -O2 -march=native ge1.c
+call GETime: 2.607841e+000 
+Check: -2.852532e+010
+
+gcc -O2 -march=native ge2.c
+call GETime: 2.019802e+000 
+Check: -2.852532e+010
+
+gcc -O2 -march=native ge3.c
+call GETime: 1.959293e+000 
+Check: -2.852532e+010
+
+gcc -O2 -march=native ge4.c
+call GETime: 1.970211e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -march=native ge5.c
+call GETime: 2.048192e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -march=native ge6.c
+call GETime: 1.630600e-002 
+Check: -1.486659e+013
+
+gcc -O2 -mavx -march=native  ge7.c
+call GETime: 0.000000e+000 
+Check: -1.486659e+013
+
+gcc -O2 -mfma ge1.c
+call GETime: 2.632563e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma ge2.c
+call GETime: 2.645201e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma ge3.c
+call GETime: 2.083813e+000
+Check: -2.852532e+010
+
+gcc -O2 -mfma ge4.c
+call GETime: 2.041362e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma ge5.c
+call GETime: 2.148781e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma ge6.c
+call GETime: 0.000000e+000 
+Check: -1.486659e+013
+
+gcc -O2 -mfma -mavx ge7.c
+call GETime: 1.591500e-002 
+Check: -1.486659e+013
+
+gcc -O2 -mfma -march=native ge1.c
+call GETime: 2.614348e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma -march=native ge2.c
+call GETime: 2.615341e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma -march=native ge3.c
+call GETime: 1.901732e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma -march=native ge4.c
+call GETime: 2.011511e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma -march=native ge5.c
+call GETime: 1.932099e+000 
+Check: -2.852532e+010 
+
+gcc -O2 -mfma -march=native ge6.c
+call GETime: 1.932099e+000
+Check: -2.852532e+010
+
+gcc -O2 -mfma -march=native -mavx ge7.c
+call GETime: 2.463000e-003 
+Check: -1.486659e+013
